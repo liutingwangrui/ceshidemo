@@ -1,1 +1,1 @@
-include ':app', ':toast', ':xiaodemo'
+include ':example', ':commons', ':core'
