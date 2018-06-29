@@ -5,3 +5,13 @@
 #### 状态栏的调用
 ###### StatusUtil.setStatusBarColor(this, android.R.color.white);
 ###### StatusUtil.setStatue(this, true);
+### 3.[使用说明]
+###### allprojects {
+###### 	repositories {
+###### 			...
+###### 			maven { url 'https://jitpack.io' }
+###### 		}
+###### 	}
+###### dependencies {
+######	         implementation 'com.github.liutingwangrui:tool:v1.0'
+###### 	}
