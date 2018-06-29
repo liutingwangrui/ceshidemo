@@ -8,12 +8,16 @@
  StatusUtil.setStatue(this, true);
  ```
 ### 3.[使用说明]
-##### allprojects {
-##### 	repositories {
-##### 			...
-##### 			maven { url 'https://jitpack.io' }
-##### 		}
-##### 	}
-##### dependencies {
-#####	         implementation 'com.github.liutingwangrui:tool:v1.0'
-##### 	}
+```
+ allprojects {
+ 	repositories {
+ 			...
+ 			maven { url 'https://jitpack.io' }
+ 		}
+ 	}
+  ```
+  ```
+ dependencies {
+	         implementation 'com.github.liutingwangrui:tool:v1.0'
+ 	}
+  ```
